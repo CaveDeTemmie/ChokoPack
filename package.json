@@ -1,0 +1,26 @@
+{
+	"name": "@chokojoestar/chokopack",
+  "displayName": "ChokoPack",
+	"version": "0.1.0",
+	"description": "Package by ChokoJoestar",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"publish": "npm publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ChokoJoestar/chokopack.git"
+	},
+  "bugs": {
+		"url": "https://github.com/ChokoJoestar/chokopack/issues"
+	},
+	"author": "ChokoJoestar",
+	"license": "MIT",
+	"homepage": "https://github.com/ChokoJoestar/chokopack#readme",
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://npm.pkg.github.com",
+		"tag": "package"
+	}
+}
