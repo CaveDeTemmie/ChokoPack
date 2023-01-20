@@ -1,6 +1,6 @@
 {
 	"name": "@chokojoestar/choko-package",
-	"version": "1.0.2",
+	"version": "1.0.4",
 	"description": "Package by ChokoJoestar",
 	"main": "lib/index.js",
 	"types": "lib",
@@ -24,7 +24,7 @@
 	"homepage": "https://github.com/CaveDeTemmie/ChokoPack#readme",
 	"publishConfig": {
 		"access": "public",
-		"registry": "https://registry.npmjs.org/",
+		"registry": "https://npm.pkg.github.com",
 		"tag": "chokojoestar"
 	},
 	"directories": {
@@ -36,5 +36,5 @@
 	],
 	"license": "MIT",
 	"readme": "./README.md"
-  
+
 }
