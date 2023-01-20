@@ -21,3 +21,4 @@ function isChokoJoestar(name: string, wantLog: boolean) {
 }
 
 export default isChokoJoestar;
+

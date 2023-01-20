@@ -1,38 +1,40 @@
 {
-  "name": "@chokojoestar/choko-package",
-  "version": "1.0.0",
-  "description": "Package by ChokoJoestar",
-  "main": "lib/index.js",
-  "types": "lib",
-  "scripts": {
-    "publishPackage": "npm publish",
-    "build": "tsc -p ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ChokoJoestar/chokopack.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ChokoJoestar/chokopack/issues"
-  },
-  "author": {
-    "name": "ChokoJoestar",
-    "email": "mohamedboulidam680@gmail.com"
-  },
-  "license": "MIT",
-  "homepage": "https://github.com/ChokoJoestar/chokopack#readme",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com",
-    "access": "public"
-  },
-  "directories": {
-    "lib": "lib"
-  },
-  "packageManager": "yarn@3.3.1",
-  "dependencies": {
-    "@chokojoestar/choko-package": "^1.0.1"
-  },
-  "files": [
-    "./lib"
-  ]
+	"name": "@chokojoestar/choko-package",
+	"version": "1.0.2",
+	"description": "Package by ChokoJoestar",
+	"main": "lib/index.js",
+	"types": "lib",
+	"scripts": {
+		"publishPackage": "npm publish",
+		"build": "tsc -p ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CaveDeTemmie/ChokoPack",
+		"directory": "https://github.com/CaveDeTemmie/ChokoPack"
+	},
+	"bugs": {
+		"url": "https://github.com/CaveDeTemmie/ChokoPack/issues",
+		"email": "mohamedboulidam680@gmail.com"
+	},
+	"author": {
+		"name": "ChokoJoestar",
+		"email": "mohamedboulidam680@gmail.com"
+	},
+	"homepage": "https://github.com/CaveDeTemmie/ChokoPack#readme",
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/",
+		"tag": "chokojoestar"
+	},
+	"directories": {
+		"lib": "./lib"
+	},
+	"packageManager": "yarn@3.3.1",
+	"files": [
+		"./lib"
+	],
+	"license": "MIT",
+	"readme": "./README.md"
+  
 }
