@@ -1,7 +1,23 @@
-const MyFonction = () => {
-	return console.log("Hey");
-};
+/**
+ *
+ * @param name - Name
+ * @param wantLog - Boolean
+ * @returns
+ */
 
-export default MyFonction;
 
-// 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
+function isChokoJoestar(name: string, wantLog: boolean) {
+	if (name === "ChokoJoestar") {
+		if (wantLog) {
+			console.log(`Your responce is ${name}, it's true`);
+		}
+		return true;
+	} else if (name !== "ChokoJoestar") {
+		if (wantLog) {
+			console.log(`Your responce is ${name}, it's false`);
+		}
+		return false;
+	}
+}
+
+export default isChokoJoestar;
