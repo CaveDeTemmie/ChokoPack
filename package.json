@@ -1,10 +1,12 @@
 {
 	"name": "@chokojoestar/choko-package",
-	"version": "1.0.4",
+	"version": "1.0.6",
 	"description": "Package by ChokoJoestar",
 	"main": "lib/index.js",
 	"types": "lib",
 	"scripts": {
+		"pushToGit": "git push https://github.com/CaveDeTemmie/ChokoPack",
+		"fullPublish": "npm run build && npm publish",
 		"publishPackage": "npm publish",
 		"build": "tsc -p ."
 	},
@@ -35,6 +37,8 @@
 		"./lib"
 	],
 	"license": "MIT",
-	"readme": "./README.md"
-
+	"readme": "./README.md",
+	"dependencies": {
+		"@types/node": "^18.11.18"
+	}
 }

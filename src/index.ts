@@ -4,15 +4,29 @@
  * @param wantLog - Boolean
  * @returns
  */
-
-
 function isChokoJoestar(name: string, wantLog: boolean) {
-	if (name === "ChokoJoestar") {
+	if (
+		name ===
+		"ChokoJoestar" ||
+			"Choko" ||
+			"Chokomo" ||
+			"chokojoestar" ||
+			"choko" ||
+			"chokomo"
+	) {
 		if (wantLog) {
 			console.log(`Your responce is ${name}, it's true`);
 		}
 		return true;
-	} else if (name !== "ChokoJoestar") {
+	} else if (
+		name !==
+		"ChokoJoestar" ||
+			"Choko" ||
+			"Chokomo" ||
+			"chokojoestar" ||
+			"choko" ||
+			"chokomo"
+	) {
 		if (wantLog) {
 			console.log(`Your responce is ${name}, it's false`);
 		}
@@ -21,4 +35,3 @@ function isChokoJoestar(name: string, wantLog: boolean) {
 }
 
 export default isChokoJoestar;
-
